@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --color: rgb(126 34 206);
+    --bgcolor: white;
+    --black: black;
+    --seccolor: rgba(218, 192, 240, 0.524);
+    --boxcolor: rgb(231, 180, 252);
+    --maincolor: rgba(241, 214, 251, 0.642);
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.nav1 {
+    /* padding: 10px; */
+    height: 83px;
+    background-color: var(--bgcolor);
+    border: 0.2px solid rgba(128, 128, 128, 0.023);
+    padding: 0%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.nav1 p {
+    /* margin-right: 0px; 
+    margin-left: 0px;  */
+    color: var(--color);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2px;
+    position: relative;
+    top: 0px;
+    /* left: 31px;  */
+    cursor: pointer;
+    /* justify-content: center; */
+}
+
+#profilelink {
+    position: relative;
+    left: 31px;
+    color: var(--color);
+    text-decoration: none;
+}
+
+#profilelink:active {
+    color: var(--color);
+}
+
+#profilelink:visited {
+    color: var(--color);
+}
+
+.nav1 ul {
+    display: flex;
+    list-style: none;
+    padding: 23px 0px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /* justify-content: center; */
+}
+
+.nav1 ul li {
+    display: flex;
+    justify-content: center;
+    margin: 6px 8px;
+    font-size: 16px;
+    /* color: var(--color); */
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 337px;
+}
+
+.nav1 svg {
+    color: var(--color);
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    margin-left: 8px;
+    position: relative;
+    left: 337px;
+}
+
+.nav1 button {
+    background-color: var(--color);
+    border: none;
+    border-radius: 8px;
+    padding: 7.5px 12px;
+    color: var(--bgcolor);
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 12px;
+    position: relative;
+    left: 337px;
+}
+
+.nav2 {
+    height: 47.5px;
+    background-color: var(--bgcolor);
+    border: 1px solid rgba(128, 128, 128, 0.172);
+    box-shadow: 0px 4px 5px rgb(0, 0, 0, 0.1);
+    padding: 0%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.nav2 ul {
+    display: flex;
+    list-style: none;
+    padding: 23px 0px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#home {
+    color: var(--color);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -9.5px;
+    left: 39px;
+    font-size: 20px;
+}
+
+.nav2 ul li {
+    display: flex;
+    justify-content: center;
+    color: var(--color);
+    font-weight: 600;
+    margin-right: 28px;
+    position: relative;
+    left: 336px;
+    top: -11.5px;
+}
+
+#search {
+    color: var(--color);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -11.5px;
+    left: 572.5px;
+    font-size: 24px;
+}
+
+h2 {
+    color: var(--color);
+    padding: 10px 0px;
+    font-weight: 450;
+}
+
+h1 {
+    padding: 20px;
+    color: var(--color);
+    font-size: 48px;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.welcome {
+    padding: 20px;
+}
+
+.main {
+    background-color: var(--maincolor);
+    height: 750px;
+    margin: 20px;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.box1 {
+    background-color: var(--boxcolor);
+    width: 500px;
+    height: 420px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+
+}
+
+.box1::first-letter {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.box2 {
+    background-color: var(--boxcolor);
+    width: 500px;
+    height: 420px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 20px;
+
+}
+
+.box2::first-letter {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+#rma {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+.mid {
+    height: 48px;
+    border: 2px solid var(--boxcolor);
+    border-radius: 25px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    color: var(--color);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px;
+}
