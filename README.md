@@ -1,6 +1,6 @@
 # CodeWithHarry-Template
 This is a template design of CodeWithHarry Website
-<b>
+<br>
 CSS Styles implemented :-
 1. Flexbox
 2. Nav Bar Sticky Design
